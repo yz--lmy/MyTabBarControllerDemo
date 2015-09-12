@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA27763119B7724000441A6A /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27763019B7724000441A6A /* NavViewController.m */; };
+		EA5884B819D3295300B727F8 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5884B719D3295300B727F8 /* GuideViewController.m */; };
+		EA5884BF19D32C2100B727F8 /* guide_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA5884BA19D32C2100B727F8 /* guide_1.jpg */; };
+		EA5884C019D32C2100B727F8 /* guide_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA5884BB19D32C2100B727F8 /* guide_2.jpg */; };
+		EA5884C119D32C2100B727F8 /* guide_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA5884BC19D32C2100B727F8 /* guide_3.jpg */; };
+		EA5884C219D32C2100B727F8 /* guide_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA5884BD19D32C2100B727F8 /* guide_4.jpg */; };
+		EA5884C319D32C2100B727F8 /* guide_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA5884BE19D32C2100B727F8 /* guide_5.jpg */; };
+		EA5884C519D32D3300B727F8 /* ItemBG_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5884C419D32D3300B727F8 /* ItemBG_H@2x.png */; };
+		EA5F239F19D87B5200DF74E4 /* MallNavgationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5F239E19D87B5200DF74E4 /* MallNavgationBar.m */; };
 		EA7BA67519B6245000C30D76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BA67419B6245000C30D76 /* Foundation.framework */; };
 		EA7BA67719B6245000C30D76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BA67619B6245000C30D76 /* CoreGraphics.framework */; };
 		EA7BA67919B6245000C30D76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BA67819B6245000C30D76 /* UIKit.framework */; };
@@ -19,6 +28,21 @@
 		EA7BA69019B6245000C30D76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BA67819B6245000C30D76 /* UIKit.framework */; };
 		EA7BA69819B6245000C30D76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA69619B6245000C30D76 /* InfoPlist.strings */; };
 		EA7BA69A19B6245000C30D76 /* MyTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA69919B6245000C30D76 /* MyTabBarControllerDemoTests.m */; };
+		EA7BA6B319B624DF00C30D76 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6A619B624DF00C30D76 /* LoginViewController.m */; };
+		EA7BA6B419B624DF00C30D76 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6A919B624DF00C30D76 /* FriendsViewController.m */; };
+		EA7BA6B519B624DF00C30D76 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6AB19B624DF00C30D76 /* MessageViewController.m */; };
+		EA7BA6B619B624DF00C30D76 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6AD19B624DF00C30D76 /* RootViewController.m */; };
+		EA7BA6B719B624DF00C30D76 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6AF19B624DF00C30D76 /* UserViewController.m */; };
+		EA7BA6B819B624DF00C30D76 /* MyTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6B219B624DF00C30D76 /* MyTabViewController.m */; };
+		EA7BA6C219B624FF00C30D76 /* carSecTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6BA19B624FF00C30D76 /* carSecTab@2x.png */; };
+		EA7BA6C319B624FF00C30D76 /* carTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6BB19B624FF00C30D76 /* carTab@2x.png */; };
+		EA7BA6C419B624FF00C30D76 /* classSecTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6BC19B624FF00C30D76 /* classSecTab@2x.png */; };
+		EA7BA6C519B624FF00C30D76 /* classTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6BD19B624FF00C30D76 /* classTab@2x.png */; };
+		EA7BA6C619B624FF00C30D76 /* mainSecTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6BE19B624FF00C30D76 /* mainSecTab@2x.png */; };
+		EA7BA6C719B624FF00C30D76 /* mainTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6BF19B624FF00C30D76 /* mainTab@2x.png */; };
+		EA7BA6C819B624FF00C30D76 /* searchSecTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6C019B624FF00C30D76 /* searchSecTab@2x.png */; };
+		EA7BA6C919B624FF00C30D76 /* searchTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6C119B624FF00C30D76 /* searchTab@2x.png */; };
+		EA7BA6CE19B6264200C30D76 /* UIView+ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6CD19B6264200C30D76 /* UIView+ViewFrameGeometry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +56,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA27762F19B7724000441A6A /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		EA27763019B7724000441A6A /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		EA5884B619D3295300B727F8 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		EA5884B719D3295300B727F8 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		EA5884BA19D32C2100B727F8 /* guide_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guide_1.jpg; sourceTree = "<group>"; };
+		EA5884BB19D32C2100B727F8 /* guide_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guide_2.jpg; sourceTree = "<group>"; };
+		EA5884BC19D32C2100B727F8 /* guide_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guide_3.jpg; sourceTree = "<group>"; };
+		EA5884BD19D32C2100B727F8 /* guide_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guide_4.jpg; sourceTree = "<group>"; };
+		EA5884BE19D32C2100B727F8 /* guide_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guide_5.jpg; sourceTree = "<group>"; };
+		EA5884C419D32D3300B727F8 /* ItemBG_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItemBG_H@2x.png"; sourceTree = "<group>"; };
+		EA5F239D19D87B5200DF74E4 /* MallNavgationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallNavgationBar.h; sourceTree = "<group>"; };
+		EA5F239E19D87B5200DF74E4 /* MallNavgationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallNavgationBar.m; sourceTree = "<group>"; };
 		EA7BA67119B6245000C30D76 /* MyTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7BA67419B6245000C30D76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA7BA67619B6245000C30D76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +84,28 @@
 		EA7BA69519B6245000C30D76 /* MyTabBarControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTabBarControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		EA7BA69719B6245000C30D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA7BA69919B6245000C30D76 /* MyTabBarControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarControllerDemoTests.m; sourceTree = "<group>"; };
+		EA7BA6A519B624DF00C30D76 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EA7BA6A619B624DF00C30D76 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EA7BA6A819B624DF00C30D76 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		EA7BA6A919B624DF00C30D76 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		EA7BA6AA19B624DF00C30D76 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		EA7BA6AB19B624DF00C30D76 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		EA7BA6AC19B624DF00C30D76 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EA7BA6AD19B624DF00C30D76 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EA7BA6AE19B624DF00C30D76 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		EA7BA6AF19B624DF00C30D76 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		EA7BA6B119B624DF00C30D76 /* MyTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabViewController.h; sourceTree = "<group>"; };
+		EA7BA6B219B624DF00C30D76 /* MyTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabViewController.m; sourceTree = "<group>"; };
+		EA7BA6BA19B624FF00C30D76 /* carSecTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carSecTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6BB19B624FF00C30D76 /* carTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6BC19B624FF00C30D76 /* classSecTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classSecTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6BD19B624FF00C30D76 /* classTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6BE19B624FF00C30D76 /* mainSecTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainSecTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6BF19B624FF00C30D76 /* mainTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6C019B624FF00C30D76 /* searchSecTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchSecTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6C119B624FF00C30D76 /* searchTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchTab@2x.png"; sourceTree = "<group>"; };
+		EA7BA6CC19B6264200C30D76 /* UIView+ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameGeometry.h"; sourceTree = "<group>"; };
+		EA7BA6CD19B6264200C30D76 /* UIView+ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameGeometry.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +132,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA5884B919D32C2100B727F8 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				EA5884BA19D32C2100B727F8 /* guide_1.jpg */,
+				EA5884BB19D32C2100B727F8 /* guide_2.jpg */,
+				EA5884BC19D32C2100B727F8 /* guide_3.jpg */,
+				EA5884BD19D32C2100B727F8 /* guide_4.jpg */,
+				EA5884BE19D32C2100B727F8 /* guide_5.jpg */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		EA5F239C19D87B5200DF74E4 /* MallNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F239D19D87B5200DF74E4 /* MallNavgationBar.h */,
+				EA5F239E19D87B5200DF74E4 /* MallNavgationBar.m */,
+			);
+			path = MallNavigationBar;
+			sourceTree = "<group>";
+		};
 		EA7BA66819B6245000C30D76 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +186,9 @@
 		EA7BA67A19B6245000C30D76 /* MyTabBarControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EA7BA6CA19B6264200C30D76 /* Lib */,
+				EA7BA6B919B624FF00C30D76 /* Res */,
+				EA7BA6A319B624DF00C30D76 /* MyVC */,
 				EA7BA68319B6245000C30D76 /* AppDelegate.h */,
 				EA7BA68419B6245000C30D76 /* AppDelegate.m */,
 				EA7BA68619B6245000C30D76 /* Images.xcassets */,
@@ -142,6 +224,88 @@
 				EA7BA69619B6245000C30D76 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA7BA6A319B624DF00C30D76 /* MyVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BA6A419B624DF00C30D76 /* LoginVC */,
+				EA7BA6A719B624DF00C30D76 /* MainVC */,
+				EA7BA6B019B624DF00C30D76 /* MyTabBarController */,
+			);
+			path = MyVC;
+			sourceTree = "<group>";
+		};
+		EA7BA6A419B624DF00C30D76 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BA6A519B624DF00C30D76 /* LoginViewController.h */,
+				EA7BA6A619B624DF00C30D76 /* LoginViewController.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		EA7BA6A719B624DF00C30D76 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BA6A819B624DF00C30D76 /* FriendsViewController.h */,
+				EA7BA6A919B624DF00C30D76 /* FriendsViewController.m */,
+				EA7BA6AA19B624DF00C30D76 /* MessageViewController.h */,
+				EA7BA6AB19B624DF00C30D76 /* MessageViewController.m */,
+				EA7BA6AC19B624DF00C30D76 /* RootViewController.h */,
+				EA7BA6AD19B624DF00C30D76 /* RootViewController.m */,
+				EA7BA6AE19B624DF00C30D76 /* UserViewController.h */,
+				EA7BA6AF19B624DF00C30D76 /* UserViewController.m */,
+				EA27762F19B7724000441A6A /* NavViewController.h */,
+				EA27763019B7724000441A6A /* NavViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		EA7BA6B019B624DF00C30D76 /* MyTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				EA5884B619D3295300B727F8 /* GuideViewController.h */,
+				EA5884B719D3295300B727F8 /* GuideViewController.m */,
+				EA7BA6B119B624DF00C30D76 /* MyTabViewController.h */,
+				EA7BA6B219B624DF00C30D76 /* MyTabViewController.m */,
+			);
+			path = MyTabBarController;
+			sourceTree = "<group>";
+		};
+		EA7BA6B919B624FF00C30D76 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				EA5884B919D32C2100B727F8 /* Guide */,
+				EA5884C419D32D3300B727F8 /* ItemBG_H@2x.png */,
+				EA7BA6BA19B624FF00C30D76 /* carSecTab@2x.png */,
+				EA7BA6BB19B624FF00C30D76 /* carTab@2x.png */,
+				EA7BA6BC19B624FF00C30D76 /* classSecTab@2x.png */,
+				EA7BA6BD19B624FF00C30D76 /* classTab@2x.png */,
+				EA7BA6BE19B624FF00C30D76 /* mainSecTab@2x.png */,
+				EA7BA6BF19B624FF00C30D76 /* mainTab@2x.png */,
+				EA7BA6C019B624FF00C30D76 /* searchSecTab@2x.png */,
+				EA7BA6C119B624FF00C30D76 /* searchTab@2x.png */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		EA7BA6CA19B6264200C30D76 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F239C19D87B5200DF74E4 /* MallNavigationBar */,
+				EA7BA6CB19B6264200C30D76 /* ViewFrameGeometry */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EA7BA6CB19B6264200C30D76 /* ViewFrameGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BA6CC19B6264200C30D76 /* UIView+ViewFrameGeometry.h */,
+				EA7BA6CD19B6264200C30D76 /* UIView+ViewFrameGeometry.m */,
+			);
+			path = ViewFrameGeometry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +383,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5884BF19D32C2100B727F8 /* guide_1.jpg in Resources */,
+				EA7BA6C219B624FF00C30D76 /* carSecTab@2x.png in Resources */,
 				EA7BA67F19B6245000C30D76 /* InfoPlist.strings in Resources */,
+				EA5884C319D32C2100B727F8 /* guide_5.jpg in Resources */,
+				EA5884C219D32C2100B727F8 /* guide_4.jpg in Resources */,
+				EA7BA6C419B624FF00C30D76 /* classSecTab@2x.png in Resources */,
+				EA7BA6C819B624FF00C30D76 /* searchSecTab@2x.png in Resources */,
 				EA7BA68719B6245000C30D76 /* Images.xcassets in Resources */,
+				EA7BA6C319B624FF00C30D76 /* carTab@2x.png in Resources */,
+				EA5884C119D32C2100B727F8 /* guide_3.jpg in Resources */,
+				EA7BA6C619B624FF00C30D76 /* mainSecTab@2x.png in Resources */,
+				EA5884C519D32D3300B727F8 /* ItemBG_H@2x.png in Resources */,
+				EA7BA6C519B624FF00C30D76 /* classTab@2x.png in Resources */,
+				EA5884C019D32C2100B727F8 /* guide_2.jpg in Resources */,
+				EA7BA6C919B624FF00C30D76 /* searchTab@2x.png in Resources */,
+				EA7BA6C719B624FF00C30D76 /* mainTab@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +417,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7BA6B719B624DF00C30D76 /* UserViewController.m in Sources */,
+				EA7BA6B419B624DF00C30D76 /* FriendsViewController.m in Sources */,
+				EA5884B819D3295300B727F8 /* GuideViewController.m in Sources */,
+				EA5F239F19D87B5200DF74E4 /* MallNavgationBar.m in Sources */,
+				EA7BA6B519B624DF00C30D76 /* MessageViewController.m in Sources */,
+				EA7BA6B619B624DF00C30D76 /* RootViewController.m in Sources */,
+				EA27763119B7724000441A6A /* NavViewController.m in Sources */,
+				EA7BA6CE19B6264200C30D76 /* UIView+ViewFrameGeometry.m in Sources */,
+				EA7BA6B819B624DF00C30D76 /* MyTabViewController.m in Sources */,
 				EA7BA68519B6245000C30D76 /* AppDelegate.m in Sources */,
 				EA7BA68119B6245000C30D76 /* main.m in Sources */,
+				EA7BA6B319B624DF00C30D76 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -346,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -360,6 +548,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyTabBarControllerDemo/MyTabBarControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "MyTabBarControllerDemo/MyTabBarControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +562,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyTabBarControllerDemo/MyTabBarControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "MyTabBarControllerDemo/MyTabBarControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +627,7 @@
 				EA7BA69F19B6245000C30D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA7BA6A019B6245000C30D76 /* Build configuration list for PBXNativeTarget "MyTabBarControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +636,7 @@
 				EA7BA6A219B6245000C30D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,6 +14,72 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    MyTabViewController * rootVC = [[MyTabViewController alloc] init];
+    
+    //  ******  MyTabViewController以vcArray方式传入VC  Begin ******  //
+    
+   rootVC.bottomDic = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:[NSArray arrayWithObjects:@"mainTab.png",@"searchTab.png",@"classTab.png",@"carTab.png", nil],[NSArray arrayWithObjects:@"mainSecTab.png",@"searchSecTab.png",@"classSecTab.png",@"carSecTab.png", nil],[NSArray arrayWithObjects:@"啵币商城",@"搜索",@"品类",@"购物车", nil], nil] forKeys:[NSArray arrayWithObjects:NormalImage,SelectedImage,ItemTitle, nil]];
+    
+    rootVC.vcArray = [NSArray arrayWithObjects:@"RootViewController",@"FriendsViewController",@"MessageViewController",@"UserViewController", nil];
+    UINavigationController * rootNAV = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    rootNAV.navigationBar.backgroundColor = [UIColor greenColor];
+    [rootNAV setNavigationBarHidden:YES];
+    self.window.rootViewController  = rootNAV;
+    
+    
+    //  ******  MyTabViewController以vcArray方式传入VC  End ******  //
+    
+    
+    
+    
+    //  ******  MyTabViewController以globalVCAry方式传入VC  Begin ******  //
+    
+    
+    //    RootViewController * rVC = [[RootViewController alloc] init];
+    //    FriendsViewController * friVC = [[FriendsViewController alloc] init];
+    //    MessageViewController * mesVC = [[MessageViewController alloc] init];
+    //    UserViewController * userVC = [[UserViewController alloc] init];
+    //    rootVC.globalVCAry = [NSArray arrayWithObjects:rVC,friVC ,mesVC,userVC,nil];
+    //    self.window.rootViewController  = rootVC;
+    
+    //  ******  MyTabViewController以globalVCAry方式传入VC  End ******  //
+    
+    
+    //  ****** 系统tabBarController Begin ******  //
+    
+    
+    //    UITabBarController * tabBarController = [[UITabBarController alloc]init];
+    //    tabBarController.tabBar.frame = CGRectMake(0,[[UIScreen mainScreen] bounds].size.height-44 , 320, 49);
+    //
+    //    RootViewController *v1 = [[RootViewController alloc]init];
+    //    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:v1];
+    //    nav1.tabBarItem.title = @"首页";
+    //    [v1.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"mainTab.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"mainSecTab.png"]];
+    //
+    //    FriendsViewController *v2 = [[FriendsViewController alloc]init];
+    //    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:v2];
+    //    nav2.tabBarItem.title = @"搜索";
+    //    [v2.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"searchTab.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"searchSecTab.png"]];
+    //
+    //
+    //    MessageViewController *v3 = [[MessageViewController alloc]init];
+    //    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:v3];
+    //     nav3.tabBarItem.title = @"品类";
+    //    [v3.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"classTab.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"classSecTab.png"]];
+    //
+    //    UserViewController *v4 = [[UserViewController alloc]init];
+    //    UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:v4];
+    //    nav4.tabBarItem.title = @"购物车";
+    //    [v4.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"carTab.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"carSecTab.png"]];
+    //
+    //    tabBarController.viewControllers = [NSArray arrayWithObjects:nav1,nav2,nav3,nav4, nil];
+    //
+    //    self.window.rootViewController  = tabBarController;
+    
+    
+    //  ******  系统tabBarController  End ******  //
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RootViewController.h"
+#import "FriendsViewController.h"
+#import "MessageViewController.h"
+#import "UserViewController.h"
+#import  "MyTabViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @end
