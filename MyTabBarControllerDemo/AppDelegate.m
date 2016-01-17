@@ -16,6 +16,7 @@
     // Override point for customization after application launch.
     MyTabViewController * rootVC = [[MyTabViewController alloc] init];
     
+    
     //  ******  MyTabViewController以vcArray方式传入VC  Begin ******  //
     
    rootVC.bottomDic = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:[NSArray arrayWithObjects:@"mainTab.png",@"searchTab.png",@"classTab.png",@"carTab.png", nil],[NSArray arrayWithObjects:@"mainSecTab.png",@"searchSecTab.png",@"classSecTab.png",@"carSecTab.png", nil],[NSArray arrayWithObjects:@"啵币商城",@"搜索",@"品类",@"购物车", nil], nil] forKeys:[NSArray arrayWithObjects:NormalImage,SelectedImage,ItemTitle, nil]];
